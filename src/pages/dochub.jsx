@@ -27,13 +27,11 @@ const Dochub = () => {
         <meta name="description" content="The Risk Universalis Dochub: your go-to for bonuses and rules" />
         <meta property="og:title" content="RU Dochub" />
         <meta property="og:description" content="A collection of Risk Universalis related documents - Your go-to for bonuses and rules" />
-        <meta property="og:image" content="https://yourdomain.com/riskcorporate.png" />
-        <meta property="og:url" content="https://yourdomain.com/dochub" />
+        <meta property="og:url" content="https://riskuniversalis.org/dochub" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="RU Dochub" />
         <meta name="twitter:description" content="A collection of Risk Universalis related documents - Your go-to for bonuses and rules" />
-        <meta name="twitter:image" content="https://yourdomain.com/riskcorporate.png" />
       </Helmet>
       <h1>Risk Universalis Dochub</h1>
       <SearchBar 
