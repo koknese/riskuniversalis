@@ -1,10 +1,3 @@
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Switch,
-} from "react-router-dom";
-
 import ButtonRow from "../components/buttonRow.jsx"
 
 import riskCorp from "../riskcorporate.png";
