@@ -21,6 +21,7 @@ const Dochub = () => {
   });
 
     return (
+    <div className="main">
       <Helmet>
         <title>RU Dochub</title>
         <meta name="description" content="The Risk Universalis Dochub: your go-to for bonuses and rules" />
@@ -28,7 +29,6 @@ const Dochub = () => {
         <meta property="og:description" content="A collection of Risk Universalis related documents - Your go-to for bonuses and rules" />
         <meta property="og:image" content={riskCorp} />
       </Helmet>
-    <div className="main">
       <h1>Risk Universalis Dochub</h1>
       <SearchBar 
         searchTerm={searchTerm}
