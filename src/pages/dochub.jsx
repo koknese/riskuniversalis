@@ -1,11 +1,12 @@
 import { React, useState } from "react";
+import { Helmet } from 'react-helmet-async'
 
 import "../index.css";
 import Card from "../components/docCard.jsx"
 import SearchBar from "../components/SearchBar.jsx"
 import Data from "../components/docList.json"
 
-import TextField from "@mui/material/TextField";
+import riskCorp from "../riskcorporate.png";
 
 const Dochub = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -20,6 +21,13 @@ const Dochub = () => {
   });
 
     return (
+      <Helmet>
+        <title>RU Dochub</title>
+        <meta name="description" content="The Risk Universalis Dochub: your go-to for bonuses and rules" />
+        <meta property="og:title" content="The Risk Universalis Dochub " />
+        <meta property="og:description" content="A collection of Risk Universalis related documents - Your go-to for bonuses and rules" />
+        <meta property="og:image" content={riskCorp} />
+      </Helmet>
     <div className="main">
       <h1>Risk Universalis Dochub</h1>
       <SearchBar 
